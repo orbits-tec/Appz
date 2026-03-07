@@ -67,9 +67,9 @@ body {
 
 .hero-highlight {
   margin: 22px 0 0;
-  text-align: center;
+  text-align: left;
   color: var(--subtitle);
-  font-size: 1.28rem;
+  font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.25;
 }
