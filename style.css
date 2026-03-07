@@ -210,6 +210,54 @@ body {
   box-shadow: 0 26px 55px rgba(27, 52, 84, 0.22), 0 8px 18px rgba(27, 52, 84, 0.14);
 }
 
+.site-footer {
+  margin-top: 54px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(47, 58, 72, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-footer-logo {
+  width: 88px;
+  height: auto;
+}
+
+.site-footer-copy {
+  margin: 0;
+  color: var(--subtitle);
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.site-footer-name {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--subtitle);
+  line-height: 1.25;
+}
+
+.site-footer-email {
+  margin-top: 3px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.site-footer-email-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  opacity: 0.9;
+}
+
 @keyframes carousel-fade {
   0%,
   4% {
@@ -256,5 +304,11 @@ body {
 
   .help-image-wrap img {
     border-radius: 14px;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
   }
 }
