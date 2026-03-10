@@ -195,6 +195,24 @@ body {
   max-width: none;
 }
 
+.privacy {
+  margin-top: 54px;
+}
+
+.privacy h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+}
+
+.privacy p {
+  margin: 10px 0 0;
+  color: var(--subtitle);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  max-width: 100%;
+}
+
 .help-image-wrap {
   margin: 0;
   width: 100%;
