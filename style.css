@@ -213,6 +213,27 @@ body {
   max-width: 100%;
 }
 
+.privacy ol {
+  margin: 14px 0 0;
+  padding-left: 18px;
+}
+
+.privacy ol li {
+  margin: 12px 0 0;
+}
+
+.privacy h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  color: var(--title);
+}
+
+.privacy li p {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
 .help-image-wrap {
   margin: 0;
   width: 100%;
