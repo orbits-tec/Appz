@@ -74,6 +74,27 @@ body {
   line-height: 1.25;
 }
 
+.appstore-link {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: var(--subtitle);
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.appstore-link-icon {
+  width: 2em;
+  height: 2em;
+  flex: 0 0 2em;
+  object-fit: contain;
+  margin-right: 6px;
+}
+
 .brand-pill {
   display: inline-flex;
   align-items: center;
