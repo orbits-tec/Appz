@@ -140,7 +140,7 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  animation: carousel-fade 60s linear infinite;
+  animation: carousel-fade 84s linear infinite;
   animation-delay: calc((var(--slide-delay) * 6s) - 1.5s);
 }
 
