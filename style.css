@@ -65,6 +65,20 @@ body {
   letter-spacing: -0.03em;
 }
 
+.brand-version {
+  margin-top: 4px;
+  display: inline-flex;
+  color: var(--subtitle);
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.brand-version:hover {
+  text-decoration: none;
+}
+
 .hero-highlight {
   margin: 22px 0 0;
   text-align: left;
@@ -72,27 +86,6 @@ body {
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.25;
-}
-
-.appstore-link {
-  margin-top: 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  color: var(--subtitle);
-  text-decoration: none;
-  font-size: 1.05rem;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-.appstore-link-icon {
-  width: 2em;
-  height: 2em;
-  flex: 0 0 2em;
-  object-fit: contain;
-  margin-right: 6px;
 }
 
 .brand-pill {
@@ -166,6 +159,50 @@ body {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+}
+
+.download {
+  margin-top: 54px;
+}
+
+.download h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+}
+
+.download-links {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 124px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.84);
+  color: #2f3a48;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1;
+  box-shadow: 0 14px 28px rgba(27, 52, 84, 0.14), 0 4px 10px rgba(27, 52, 84, 0.1);
+}
+
+.download-link-icon {
+  width: 0.98rem;
+  height: 0.98rem;
+  flex: 0 0 0.98rem;
+  object-fit: contain;
+  margin-right: 7px;
 }
 
 .feature-card {
