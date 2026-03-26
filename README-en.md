@@ -4,6 +4,6 @@
 
 [Portuguese](README.md) | [English](README-en.md)
 
-Appz is a macOS launcher focused on simplicity. Access your favorite apps from the menu bar or custom Launchpad.
+Appz is a macOS launcher built to keep things simple. Open your favorite apps right from the menu bar or your custom Launchpad.
 
 - [Project page](https://orbits-tec.github.io/Appz/)
